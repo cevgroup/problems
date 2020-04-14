@@ -2,3 +2,6 @@ submit50:
   style: false
   files: &submit50_files
     - !require Main.lua
+
+cevsubmit:
+  files: *check50_files
