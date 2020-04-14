@@ -2,3 +2,6 @@ submit50:
   files:
     - !exclude node_modules
   style: false
+
+cevsubmit:
+  files: *check50_files
