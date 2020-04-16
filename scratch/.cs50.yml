@@ -6,3 +6,6 @@ check50:
 submit50:
   files: *check50_files
   style: false
+
+cevsubmit:
+  files: *check50_files
