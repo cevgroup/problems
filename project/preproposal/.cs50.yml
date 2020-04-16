@@ -4,3 +4,6 @@ submit50:
     - !exclude "*"
     - !require README.md
 
+
+cevsubmit:
+  files: *check50_files
