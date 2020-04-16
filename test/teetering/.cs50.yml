@@ -5,4 +5,7 @@ submit50:
     - !require teetering.py
 
 cevsubmit:
-  files: *check50_files
+  style: false
+  files: &submit50_files
+    - !exclude "*"
+    - !require teetering.py

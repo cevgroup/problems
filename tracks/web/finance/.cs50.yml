@@ -8,4 +8,10 @@ submit50:
     - !require helpers.py
 
 cevsubmit:
-  files: *check50_files
+  style: false
+  files: &submit50_files
+    - !exclude "*.pyc"
+    - !exclude __pycache__
+    - !require application.py
+    - !require finance.db
+    - !require helpers.py

@@ -9,3 +9,4 @@ submit50:
 
 cevsubmit:
   files: *check50_files
+  style: false

@@ -2,4 +2,4 @@ submit50:
   style: false
 
 cevsubmit:
-  files: *check50_files
+  style: false
