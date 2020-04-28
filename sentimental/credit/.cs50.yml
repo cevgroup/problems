@@ -8,7 +8,4 @@ check50:
   files: *submit50_files
 
 cevsubmit:
-  files: &submit50_files
-    - !exclude "*"
-    - !include "*.py"
-    - !require credit.py
+  files: *submit50_files
