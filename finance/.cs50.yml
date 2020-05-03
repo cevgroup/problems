@@ -6,3 +6,6 @@ submit50:
     - !require application.py
     - !require finance.db
     - !require helpers.py
+cevsubmit:
+  style: false
+  files: *submit50_files
