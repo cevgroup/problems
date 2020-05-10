@@ -2,6 +2,6 @@ submit50:
   style: false
 cevsubmit:
   style: false
-  files: &submit50_files
+  files: &cevsubmit_files
     - !include *.html
     - !include *.css
